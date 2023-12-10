@@ -1,0 +1,16 @@
+[package]
+name = "password_generator"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rand = "0.8"
+
+[lib]
+name = "eternals_password_generator"
+path = "src/lib.rs"
+description = "Simple Password Gen"
+license = "MIT" # or whatever license you're using
+repository = "https://github.com/thatmarcboi/pswd_gen"
+
+[dev-dependencies]
